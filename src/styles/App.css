@@ -1,0 +1,55 @@
+.heads {
+  color: rgb(133, 133, 248);
+  grid-gap: 300px;
+}
+
+.active {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border-radius: 10px;
+  font-size: large;
+  font-weight: bold;
+  font-style: italic;
+  grid-gap: 600px;
+  justify-content: end;
+}
+
+.showcase {
+  height: 100vh;
+  background-image: linear-gradient(rgba(139, 0, 0,0.7),rgba(139, 0, 0,0.7)), url('../images/legal-2.jpg');
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: #fff ;
+}
+
+.showcase_inner button {
+  background-color: deepskyblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.showcase_inner button a {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav{
+	background-color: rgb(157, 2, 2);
+}
+
+.cont {
+  margin-top: 100px;
+}
+
+.cont-1 {
+  margin-top: 130px;
+}
+
+.cont-b {
+  margin-bottom: 170px;
+}
