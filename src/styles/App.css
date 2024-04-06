@@ -1,6 +1,7 @@
 .heads {
   color: rgb(133, 133, 248);
-  grid-gap: 300px;
+  grid-gap: 100px;
+  padding: 5px;
 }
 
 .active {
@@ -8,20 +9,24 @@
   background-color: rgb(0, 0, 0);
   color: white;
   border-radius: 10px;
-  font-size: large;
+  font-size: medium;
   font-weight: bold;
-  font-style: italic;
-  grid-gap: 600px;
+  font-style: Tahoma;
+  grid-gap: 300px;
   justify-content: end;
 }
 
 .showcase {
   height: 100vh;
-  background-image: linear-gradient(rgba(139, 0, 0,0.7),rgba(139, 0, 0,0.7)), url('../images/legal-2.jpg');
+  background-image: linear-gradient(
+      rgba(53, 0, 139, 0.7),
+      rgba(16, 139, 0, 0.7)
+    ),
+    url("../images/pexels-photo-245240.webp");
   display: grid;
   place-items: center;
   text-align: center;
-  color: #fff ;
+  color: #fff;
 }
 
 .showcase_inner button {
@@ -38,18 +43,23 @@
   text-decoration: none;
 }
 
-.nav{
-	background-color: rgb(157, 2, 2);
+.nav {
+  background-color: white;
+  padding: 5px;
 }
 
 .cont {
-  margin-top: 100px;
+  margin-top: 90px;
 }
 
 .cont-1 {
-  margin-top: 130px;
+  margin-top: 90px;
 }
 
 .cont-b {
-  margin-bottom: 170px;
+  margin-bottom: 90px;
+}
+
+.logo {
+  padding: 5px;
 }
